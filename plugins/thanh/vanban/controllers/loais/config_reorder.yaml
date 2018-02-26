@@ -1,0 +1,4 @@
+title: Loais
+modelClass: Thanh\Vanban\Models\Loai
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,31 @@
+fields:
+    linhvuc:
+        label: 'Lĩnh vực'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: linhvuc
+            type: slug
+        type: text
+    ngonngu:
+        label: 'Ngôn ngữ'
+        oc.commentPosition: ''
+        options:
+            'Tiếng Việt': 'Tiếng Việt'
+            'Tiếng Anh': 'Tiếng Anh'
+        span: auto
+        type: dropdown
+    thutu:
+        label: 'Thứ tự'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    trangthai:
+        label: 'Kích hoạt?'
+        span: auto
+        type: switch

@@ -1,0 +1,24 @@
+plugin:
+    name: 'thanh.vanban::lang.plugin.name'
+    description: 'thanh.vanban::lang.plugin.description'
+    author: Thanh
+    icon: oc-icon-file
+    homepage: ''
+navigation:
+    van-ban:
+        label: 'Văn bản'
+        url: thanh/vanban/vanbans
+        icon: icon-file-text
+        sideMenu:
+            side-menu-item:
+                label: 'Cơ quan ban hành'
+                url: thanh/vanban/coquans
+                icon: icon-sitemap
+            loai-van-ban:
+                label: 'Loại văn bản'
+                url: thanh/vanban/loais
+                icon: icon-slack
+            linh-vuc:
+                label: 'Lĩnh vực'
+                url: thanh/vanban/linhvucs
+                icon: icon-sitemap

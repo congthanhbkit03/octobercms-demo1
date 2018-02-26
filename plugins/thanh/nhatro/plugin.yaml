@@ -1,0 +1,6 @@
+plugin:
+    name: 'thanh.nhatro::lang.plugin.name'
+    description: 'thanh.nhatro::lang.plugin.description'
+    author: Thanh
+    icon: oc-icon-hotel
+    homepage: ''

@@ -1,0 +1,16 @@
+fields:
+    trichyeu:
+        label: 'Trích yếu'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    sohieu:
+        label: 'Số hiệu'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    tenvanban:
+        label: 'Tên văn bản'
+        oc.commentPosition: ''
+        span: auto
+        type: text

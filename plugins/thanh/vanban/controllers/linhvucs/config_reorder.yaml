@@ -1,0 +1,4 @@
+title: Linhvucs
+modelClass: Thanh\Vanban\Models\Linhvuc
+toolbar:
+    buttons: reorder_toolbar

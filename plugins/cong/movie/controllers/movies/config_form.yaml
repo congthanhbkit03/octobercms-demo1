@@ -1,0 +1,10 @@
+name: Movies
+form: $/cong/movie/models/movie/fields.yaml
+modelClass: Cong\Movie\Models\Movie
+defaultRedirect: cong/movie/movies
+create:
+    redirect: 'cong/movie/movies/update/:id'
+    redirectClose: cong/movie/movies
+update:
+    redirect: cong/movie/movies
+    redirectClose: cong/movie/movies

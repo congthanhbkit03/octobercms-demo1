@@ -1,0 +1,10 @@
+name: Genres
+form: $/cong/movie/models/genre/fields.yaml
+modelClass: Cong\Movie\Models\Genre
+defaultRedirect: cong/movie/genres
+create:
+    redirect: 'cong/movie/genres/update/:id'
+    redirectClose: cong/movie/genres
+update:
+    redirect: cong/movie/genres
+    redirectClose: cong/movie/genres

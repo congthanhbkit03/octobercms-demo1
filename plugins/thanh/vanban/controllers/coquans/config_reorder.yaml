@@ -1,0 +1,4 @@
+title: Coquans
+modelClass: Thanh\Vanban\Models\Coquan
+toolbar:
+    buttons: reorder_toolbar

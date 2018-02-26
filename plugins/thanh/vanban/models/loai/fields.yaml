@@ -1,0 +1,31 @@
+fields:
+    loai:
+        label: 'Tên loại'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: right
+        preset:
+            field: loai
+            type: slug
+        type: text
+    thutu:
+        label: 'Thứ tự'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    ngonngu:
+        label: 'Ngôn ngữ'
+        oc.commentPosition: ''
+        options:
+            'Tiếng Việt': 'Tiếng Việt'
+            'Tiếng Anh': 'Tiếng Anh'
+        span: auto
+        type: dropdown
+    trangthai:
+        label: 'Trạng thái'
+        span: auto
+        type: switch

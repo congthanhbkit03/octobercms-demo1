@@ -1,0 +1,6 @@
+plugin:
+    name: 'thanh.contact::lang.plugin.name'
+    description: 'thanh.contact::lang.plugin.description'
+    author: Thanh
+    icon: oc-icon-adn
+    homepage: ''

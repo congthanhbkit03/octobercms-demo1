@@ -1,0 +1,6 @@
+plugin:
+    name: 'thanh.news::lang.plugin.name'
+    description: 'thanh.news::lang.plugin.description'
+    author: thanh
+    icon: oc-icon-newspaper-o
+    homepage: ''

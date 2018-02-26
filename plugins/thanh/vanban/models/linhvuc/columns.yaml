@@ -1,0 +1,21 @@
+columns:
+    linhvuc:
+        label: 'Lĩnh vực'
+        type: text
+        searchable: true
+        sortable: true
+    thutu:
+        label: 'Thứ tự'
+        type: number
+        searchable: true
+        sortable: true
+    ngonngu:
+        label: 'Ngôn ngữ'
+        type: text
+        searchable: true
+        sortable: true
+    trangthai:
+        label: 'Trạng thái'
+        type: switch
+        searchable: true
+        sortable: true

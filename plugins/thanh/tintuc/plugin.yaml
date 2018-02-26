@@ -1,0 +1,6 @@
+plugin:
+    name: 'thanh.tintuc::lang.plugin.name'
+    description: 'thanh.tintuc::lang.plugin.description'
+    author: thanh
+    icon: oc-icon-newspaper-o
+    homepage: ''

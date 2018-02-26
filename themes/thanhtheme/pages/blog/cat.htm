@@ -1,0 +1,28 @@
+title = "Blog Cat"
+url = "/blog/cat/:slug"
+layout = "default"
+description = "View by category"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = ":slug"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog"
+postPage = "blog/post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/category"
+==
+<div class="row">
+	<div class="col-md-8">
+	    {% component 'blogPosts' %}
+	</div>
+	<div class="col-md-4">
+	    {% component 'blogCategories' %}
+	</div>
+</div>

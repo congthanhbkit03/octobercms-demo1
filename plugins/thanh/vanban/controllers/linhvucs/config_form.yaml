@@ -1,0 +1,10 @@
+name: Linhvucs
+form: $/thanh/vanban/models/linhvuc/fields.yaml
+modelClass: Thanh\Vanban\Models\Linhvuc
+defaultRedirect: thanh/vanban/linhvucs
+create:
+    redirect: 'thanh/vanban/linhvucs/update/:id'
+    redirectClose: thanh/vanban/linhvucs
+update:
+    redirect: thanh/vanban/linhvucs
+    redirectClose: thanh/vanban/linhvucs

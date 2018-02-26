@@ -1,0 +1,12 @@
+list: $/thanh/vanban/models/coquan/columns.yaml
+modelClass: Thanh\Vanban\Models\Coquan
+title: Coquans
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'thanh/vanban/coquans/update/:id'

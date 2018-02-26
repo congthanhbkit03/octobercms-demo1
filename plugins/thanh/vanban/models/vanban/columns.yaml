@@ -1,0 +1,21 @@
+columns:
+    tenvanban:
+        label: 'Tên văn bản'
+        type: text
+        searchable: true
+        sortable: true
+    trichyeu:
+        label: 'Trích yếu'
+        type: text
+        searchable: true
+        sortable: true
+    sohieu:
+        label: 'Số hiệu'
+        type: text
+        searchable: true
+        sortable: true
+    trangthai:
+        label: 'Trạng thái'
+        type: text
+        searchable: true
+        sortable: true

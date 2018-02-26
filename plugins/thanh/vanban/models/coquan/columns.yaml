@@ -1,0 +1,20 @@
+columns:
+    tencoquan:
+        label: 'Tên cơ quan'
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+    thutu:
+        label: 'Thứ tự'
+        type: number
+        sortable: true
+    ngonngu:
+        label: 'Ngôn ngữ'
+        type: text
+    trangthai:
+        label: 'Trạng thái'
+        type: text
+        searchable: false
+        invisible: false
+        sortable: true

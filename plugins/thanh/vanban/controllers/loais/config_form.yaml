@@ -1,0 +1,10 @@
+name: Loais
+form: $/thanh/vanban/models/loai/fields.yaml
+modelClass: Thanh\Vanban\Models\Loai
+defaultRedirect: thanh/vanban/loais
+create:
+    redirect: 'thanh/vanban/loais/update/:id'
+    redirectClose: thanh/vanban/loais
+update:
+    redirect: thanh/vanban/loais
+    redirectClose: thanh/vanban/loais

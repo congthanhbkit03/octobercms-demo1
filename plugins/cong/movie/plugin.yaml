@@ -1,0 +1,16 @@
+plugin:
+    name: 'cong.movie::lang.plugin.name'
+    description: 'cong.movie::lang.plugin.description'
+    author: Thanh
+    icon: oc-icon-apple
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: cong/movie/movies
+        icon: icon-film
+        sideMenu:
+            side-menu-item:
+                label: Genres
+                url: cong/movie/genres
+                icon: icon-tag

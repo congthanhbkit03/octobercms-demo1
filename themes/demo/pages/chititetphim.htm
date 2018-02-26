@@ -1,0 +1,14 @@
+title = "chititetphim"
+url = "/chititetphim"
+layout = "default"
+description = "Chi tieets phim"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Tham\Phim\Models\Film"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table thanh_nhatro_loai'
+    - builder_table_create_thanh_nhatro_loai.php
+1.0.3:
+    - 'Created table thanh_nhatro_nhatro'
+    - builder_table_create_thanh_nhatro_nhatro.php
+1.0.4:
+    - 'Created table thanh_nhatro_nhatro_loai'
+    - builder_table_create_thanh_nhatro_nhatro_loai.php

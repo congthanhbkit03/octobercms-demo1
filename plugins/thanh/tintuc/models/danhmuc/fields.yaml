@@ -1,0 +1,6 @@
+fields:
+    tendm:
+        label: 'Ten danh mục'
+        oc.commentPosition: ''
+        span: auto
+        type: text

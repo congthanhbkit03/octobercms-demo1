@@ -1,0 +1,4 @@
+title: Vanbans
+modelClass: Thanh\Vanban\Models\Vanban
+toolbar:
+    buttons: reorder_toolbar

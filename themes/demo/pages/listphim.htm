@@ -1,0 +1,16 @@
+title = "Phim"
+url = "/phim"
+layout = "default"
+description = "Trang danh sach phim"
+is_hidden = 0
+
+[builderList]
+modelClass = "Tham\Phim\Models\Film"
+scope = "-"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

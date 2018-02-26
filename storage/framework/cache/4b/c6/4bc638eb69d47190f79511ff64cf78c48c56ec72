@@ -1,0 +1,57 @@
+1519543020a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:582:"[viewBag]
+==
+<header class="main-header">
+
+
+</header>
+
+<nav class="navbar navbar-inverse">
+
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">MyWWeb</a>
+
+        </div>
+
+        <ul class="nav navbar-nav">
+
+            <li class="{% if this.page.id=='homepage'%} active {% endif %}"><a href="{{ 'homepage'|page}}">Home page</a></li>
+
+            <li class="{% if this.page.id=='films'%} active {% endif %}"><a href="{{ 'films'|page}}">Films</a></li>
+
+
+
+        </ul>
+
+    </div>
+
+</nav>";s:5:"mtime";i:1518272715;s:6:"markup";s:567:"<header class="main-header">
+
+
+</header>
+
+<nav class="navbar navbar-inverse">
+
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">MyWWeb</a>
+
+        </div>
+
+        <ul class="nav navbar-nav">
+
+            <li class="{% if this.page.id=='homepage'%} active {% endif %}"><a href="{{ 'homepage'|page}}">Home page</a></li>
+
+            <li class="{% if this.page.id=='films'%} active {% endif %}"><a href="{{ 'films'|page}}">Films</a></li>
+
+
+
+        </ul>
+
+    </div>
+
+</nav>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

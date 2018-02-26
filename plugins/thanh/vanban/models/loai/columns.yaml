@@ -1,0 +1,21 @@
+columns:
+    loai:
+        label: Loại
+        type: text
+        searchable: true
+        sortable: true
+    thutu:
+        label: 'Thứ tự'
+        type: number
+        searchable: true
+        sortable: true
+    ngonngu:
+        label: 'Ngôn ngữ'
+        type: text
+        searchable: true
+        sortable: true
+    trangthai:
+        label: 'Trạng thái'
+        type: text
+        searchable: true
+        sortable: true

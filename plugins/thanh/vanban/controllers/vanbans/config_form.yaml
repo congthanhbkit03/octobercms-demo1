@@ -1,0 +1,10 @@
+name: Vanbans
+form: $/thanh/vanban/models/vanban/fields.yaml
+modelClass: Thanh\Vanban\Models\Vanban
+defaultRedirect: thanh/vanban/vanbans
+create:
+    redirect: 'thanh/vanban/vanbans/update/:id'
+    redirectClose: thanh/vanban/vanbans
+update:
+    redirect: thanh/vanban/vanbans
+    redirectClose: thanh/vanban/vanbans

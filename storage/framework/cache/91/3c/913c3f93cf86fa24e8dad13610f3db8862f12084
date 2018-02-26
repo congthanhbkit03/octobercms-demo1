@@ -1,0 +1,19 @@
+1519543020a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:136:"[viewBag]
+==
+<footer class="main-footer">
+
+    <div class="container">
+
+        <p>@2018 - QNG Team</p>
+
+    </div>
+
+</footer>";s:5:"mtime";i:1518272411;s:6:"markup";s:121:"<footer class="main-footer">
+
+    <div class="container">
+
+        <p>@2018 - QNG Team</p>
+
+    </div>
+
+</footer>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

@@ -1,0 +1,38 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table thanh_vanban_vanban'
+    - builder_table_create_thanh_vanban_vanban.php
+1.0.3:
+    - 'Created table thanh_vanban_loai'
+    - builder_table_create_thanh_vanban_loai.php
+1.0.4:
+    - 'Created table thanh_vanban_linhvuc'
+    - builder_table_create_thanh_vanban_linhvuc.php
+1.0.5:
+    - 'Created table thanh_vanban_coquan'
+    - builder_table_create_thanh_vanban_coquan.php
+1.0.6:
+    - 'Created table thanh_vanban_vanban_linhvuc'
+    - builder_table_create_thanh_vanban_vanban_linhvuc.php
+1.0.7:
+    - 'Created table thanh_vanban_vanban_loai'
+    - builder_table_create_thanh_vanban_vanban_loai.php
+1.0.8:
+    - 'Updated table thanh_vanban_coquan'
+    - builder_table_update_thanh_vanban_coquan.php
+1.0.9:
+    - 'Updated table thanh_vanban_coquan'
+    - builder_table_update_thanh_vanban_coquan_2.php
+1.0.10:
+    - 'Updated table thanh_vanban_vanban'
+    - builder_table_update_thanh_vanban_vanban.php
+1.0.11:
+    - 'Updated table thanh_vanban_coquan'
+    - builder_table_update_thanh_vanban_coquan_3.php
+1.0.12:
+    - 'Updated table thanh_vanban_loai'
+    - builder_table_update_thanh_vanban_loai.php
+1.0.13:
+    - 'Updated table thanh_vanban_linhvuc'
+    - builder_table_update_thanh_vanban_linhvuc.php

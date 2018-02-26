@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cong_movie_movie'
+    - builder_table_create_cong_movie_movie.php
+1.0.3:
+    - 'Created table cong_movie_genre'
+    - builder_table_create_cong_movie_genre.php
+1.0.4:
+    - 'Created table cong_movie_movie_genre'
+    - builder_table_create_cong_movie_movie_genre.php
+1.0.5:
+    - 'Created table cong_movie_'
+    - builder_table_create_cong_movie_.php
+1.0.6:
+    - 'Drop table cong_movie_'
+    - builder_table_delete_cong_movie_.php

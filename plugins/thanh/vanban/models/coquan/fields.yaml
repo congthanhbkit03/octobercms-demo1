@@ -1,0 +1,35 @@
+fields:
+    tencoquan:
+        label: 'Cơ quan ban hành'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: tencoquan
+            type: slug
+        type: text
+    ngonngu:
+        label: 'Ngôn ngữ'
+        oc.commentPosition: ''
+        options:
+            viet: 'Tiếng Việt'
+            anh: 'Tiếng Anh'
+        span: left
+        type: dropdown
+    thutu:
+        label: 'Thứ tự'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    trangthai:
+        label: 'Trạng Thái'
+        oc.commentPosition: ''
+        options:
+            active: 'Kích hoạt'
+            noactive: 'Không kích hoạt'
+        span: auto
+        type: radio

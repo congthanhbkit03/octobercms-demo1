@@ -1,0 +1,10 @@
+name: Coquans
+form: $/thanh/vanban/models/coquan/fields.yaml
+modelClass: Thanh\Vanban\Models\Coquan
+defaultRedirect: thanh/vanban/coquans
+create:
+    redirect: 'thanh/vanban/coquans/update/:id'
+    redirectClose: thanh/vanban/coquans
+update:
+    redirect: thanh/vanban/coquans
+    redirectClose: thanh/vanban/coquans
