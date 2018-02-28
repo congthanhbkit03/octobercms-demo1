@@ -25,4 +25,12 @@ class Linhvuc extends Model
      * @var string The database table used by the model.
      */
     public $table = 'thanh_vanban_linhvuc';
+
+    public $belongsToMany = [
+        'vanbans' => [
+            'Thanh\Vanban\Models\Vanban',
+            'table' => 'thanh_vanban_vanban_linhvuc',
+            'order'      => 'tenvanban'
+        ]
+    ];  
 }

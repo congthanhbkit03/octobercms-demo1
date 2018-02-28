@@ -1,4 +1,17 @@
 fields:
+    tenvanban:
+        label: 'Tên văn bản'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: tenvanban
+            type: slug
+        type: text
     trichyeu:
         label: 'Trích yếu'
         oc.commentPosition: ''
@@ -9,8 +22,20 @@ fields:
         oc.commentPosition: ''
         span: left
         type: text
-    tenvanban:
-        label: 'Tên văn bản'
+    file:
+        label: 'File upload'
         oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
         span: auto
-        type: text
+        type: fileupload
+    linhvucs:
+        label: 'Lĩnh vực'
+        oc.commentPosition: ''
+        nameFrom: linhvuc
+        descriptionFrom: description
+        span: auto
+        type: relation
